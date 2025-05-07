@@ -51,9 +51,9 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Raima a MERN stack developer with 1+ year of React
-              experience, passionate about clean UI/UX and building intuitive,
-              user-centered web apps.
+              Hi, I’m Raima a MERN stack developer with<br></br> 1+ year of
+              React experience, passionate<br></br> about clean UI/UX and
+              building <br></br>intuitive, user-centered web apps.
             </p>
             <Button
               text="See My Work"
