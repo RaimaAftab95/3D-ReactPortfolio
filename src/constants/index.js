@@ -151,41 +151,67 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "Raima demonstrated exceptional frontend skills during her apprenticeship, showing rapid growth and the ability to implement UI components with precision and efficiency.",
+    imgPath: "/images/IEC-logoText.png",
+    logoPath: "/images/IEC-logo.png",
+    title: "Frontend Web Developer Apprenticeship",
+    date: "2023 - 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Completed a structured apprenticeship at Institute of Emerging Careers (IEC).",
+      "Built responsive, user-friendly UIs using React, Tailwind CSS, and Material UI.",
+      "Practiced agile development and collaborated with remote teams using Trello and Slack.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+      "Raima showed a keen understanding of frontend fundamentals and delivered well-crafted, responsive landing pages in a remote internship setting.",
+    imgPath: "/images/cogno.png",
+    logoPath: "/images/cogno-logo.png",
+    title: "Trainee Frontend Developer – Internship",
+    date: "March 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Designed and developed responsive landing pages.",
+      "Improved page responsiveness using HTML, CSS, and JavaScript.",
+      "Learned to collaborate in a fast-paced remote environment.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+      "During her internship at Codesoft, Raima displayed strong learning agility and contributed meaningfully to multiple frontend development tasks.",
+    imgPath: "/images/codesoft.png",
+    logoPath: "/images/codesoft-logo.png",
+    title: "Trainee Frontend Web Developer – Internship",
+    date: "Feb - March 2024",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Assisted in developing web components using HTML5, CSS3, and Bootstrap.",
+      "Contributed to bug fixes and UI improvements.",
+      "Enhanced existing layouts for better cross-device performance.",
+    ],
+  },
+  {
+    review:
+      "Raima played a key role in the development of Outworkx, implementing UI features for a coworking booking platform with attention to detail and responsive design.",
+    imgPath: "/images/logos/Outworkx-logo.svg",
+    logoPath: "/images/logos/Outworkx-logo.svg",
+    title: "Frontend Web Developer – Outworkx",
+    date: "May 2024 – Sep 2024",
+    responsibilities: [
+      "Developed a responsive coworking space booking platform using React and Tailwind CSS.",
+      "Integrated user authentication and dynamic space listings.",
+      "Collaborated on multiple projects including Zenkly and GrowX with backend API integration.",
+    ],
+  },
+  {
+    review:
+      "At Appalo Inc, Raima contributed to building a dynamic, role-based Hajj Online Application Dashboard with a solid grasp of state management and UI patterns.",
+    imgPath: "/images/appalo-logo.jfif",
+    logoPath: "/images/appalo-logo.jfif",
+    title: "Frontend Web Developer – Appalo Inc",
+    date: "Oct 2024 – Present",
+    responsibilities: [
+      "Developed a role-based admin dashboard for Hajj Online Application Portal.",
+      "Implemented reusable UI components and dynamic user interfaces.",
+      "Worked closely with backend APIs and ensured smooth state management.",
     ],
   },
 ];
