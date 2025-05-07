@@ -151,7 +151,7 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Raima demonstrated exceptional frontend skills during her apprenticeship, showing rapid growth and the ability to implement UI components with precision and efficiency.",
+      "Raima demonstrated exceptional frontend skills during her apprenticeship, showing rapid growth and the ability to implement UI components with precision and efficiency. She was the top performer of our batch, consistently delivering projects on time with clean, responsive UIs and a strong understanding of UI functionality and Redux architecture.",
     imgPath: "/images/IEC-logoText.png",
     logoPath: "/images/IEC-logo.png",
     title: "Frontend Web Developer Apprenticeship",
@@ -165,8 +165,8 @@ const expCards = [
   {
     review:
       "Raima showed a keen understanding of frontend fundamentals and delivered well-crafted, responsive landing pages in a remote internship setting.",
-    imgPath: "/images/cogno.png",
-    logoPath: "/images/cogno-logo.png",
+    imgPath: "/images/cognoRiseInfoTech-logo.jfif",
+    logoPath: "/images/cognoRiseInfoTech-logo.jfif",
     title: "Trainee Frontend Developer – Internship",
     date: "March 2024",
     responsibilities: [
@@ -178,8 +178,8 @@ const expCards = [
   {
     review:
       "During her internship at Codesoft, Raima displayed strong learning agility and contributed meaningfully to multiple frontend development tasks.",
-    imgPath: "/images/codesoft.png",
-    logoPath: "/images/codesoft-logo.png",
+    imgPath: "/images/codeSoft-logo.avif",
+    logoPath: "/images/codeSoft-logoText.png",
     title: "Trainee Frontend Web Developer – Internship",
     date: "Feb - March 2024",
     responsibilities: [
