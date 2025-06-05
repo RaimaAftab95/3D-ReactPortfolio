@@ -48,7 +48,7 @@ section {
   }
 
   .section-padding {
-    @apply px-5 md:px-10 md:mt-40 mt-20;
+    @apply px-5 md:px-10 py-5 md:py-8 md:mt-40 mt-20;
   }
 
   .mt-responsive {
@@ -262,7 +262,7 @@ section {
     @apply absolute left-0 bottom-[-100%] w-full h-full bg-[#2D3240] group-hover:bottom-0 transition-all duration-700;
   }
 
-  .tech-card-content {
+ .tech-card-content {
     @apply flex flex-col md:justify-center items-center xl:gap-5 xl:h-[50vh] overflow-hidden relative z-10 group-hover:cursor-grab;
 
     & p {
@@ -277,7 +277,7 @@ section {
   .tech-icon-wrapper {
     @apply flex justify-center items-center w-52 h-60 relative;
   }
-
+  
   form {
     label {
       @apply block text-white-50 mb-2;
@@ -469,5 +469,37 @@ section {
 
 .card:hover::before {
   opacity: 1;
+}
+
+
+/* Rainbow border wrapper in Techstack */
+.rainbow-border {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  display: inline-block;
+  /* border-radius: 9999px; */
+  border-radius: 0.5rem; 
+}
+
+/* Tech card inner content */
+.tech-card {
+  background-color: #2D3240;
+  border-radius: inherit;
+}
+
+/* Overlay background */
+.tech-card-animated-bg {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1f26;
+  transition: bottom 0.7s ease;
+  z-index: 0;
+}
+
+/* Slide overlay on hover */
+.group:hover .tech-card-animated-bg {
+  bottom: 0;
 }
 

@@ -13,6 +13,12 @@ const AnimatedCounter = () => {
   const countersRef = useRef([]);
 
   useGSAP(() => {
+    console.log("Running GSAP useEffect");
+
+    if (!countersRef.current.length || !counterItems.length) {
+      console.warn("Counters or items missing!");
+      return;
+    }
     countersRef.current.forEach((counter, index) => {
       const numberElement = counter.querySelector(".counter-number");
       const item = counterItems[index];

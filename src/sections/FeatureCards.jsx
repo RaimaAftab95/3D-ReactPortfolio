@@ -29,13 +29,16 @@ const FeatureCards = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="w-full padding-x-lg">
-      <div className="mx-auto grid-3-cols">
+    // <div ref={sectionRef} className="w-full padding-x-lg">
+    //   <div className="ml-10 mx-auto grid-3-cols">
+
+    <div ref={sectionRef} className="w-full px-16 sm:px-12 md:px-16 lg:px-20">
+      <div className="mx-auto grid-3-cols max-w-screen-lg">
         {abilities.map(({ imgPath, title, desc }, index) => (
           <div
             key={title}
             ref={(el) => (cardsRef.current[index] = el)}
-            className="card-border rounded-xl p-8 flex flex-col gap-4"
+            className="card-border rounded-xl p-8 flex flex-col gap-4 border-2 border-amber-50"
           >
             <div className="size-14 flex items-center justify-center rounded-full">
               <img src={imgPath} alt={title} />
