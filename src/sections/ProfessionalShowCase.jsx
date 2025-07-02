@@ -6,7 +6,7 @@ import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Showcase = () => {
+const ProfessionalShowcase = () => {
   const sectionRef = useRef(null);
   const shopperRef = useRef(null);
   const outworkxRef = useRef(null);
@@ -60,9 +60,14 @@ const Showcase = () => {
         <TitleHeader title="Professional Projects" sub="🧑‍💼 Real-World Work" />
         <div className="showcaselayout mt-10">
           <div ref={shopperRef} className="first-project-wrapper">
-            <div className="image-wrapper">
+            <a
+              href="https://zenkly-update.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="image-wrapper block"
+            >
               <img src="/images/project-4.png" alt="Zenkly App" />
-            </div>
+            </a>
             <div className="text-content">
               <h2>
                 Zenkly– AI-Powered Idea Generation & Project Management Tool
@@ -91,7 +96,7 @@ const Showcase = () => {
                 href="https://outworkx.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="image-wrapper bg-[#FFEFDB] block"
+                className="image-wrapper block"
               >
                 <img
                   src="/images/project-2.png"
@@ -106,12 +111,17 @@ const Showcase = () => {
             </div>
 
             <div className="project" ref={growXRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
+              <a
+                href="https://github.com/RaimaAftab95/Growx/issues/1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-wrapper block"
+              >
                 <img
                   src="/images/project-3.png"
                   alt="Web3-Enabled NFT Platform"
                 />
-              </div>
+              </a>
               <h2>
                 Web3-Enabled NFT Platform with Wallet Integration & Secure
                 Authentication (MERN + Docker)
@@ -124,4 +134,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default ProfessionalShowcase;

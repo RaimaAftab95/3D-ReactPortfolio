@@ -3,9 +3,9 @@ import Experience from "./sections/Experience";
 import FeatureCards from "./sections/FeatureCards";
 import Hero from "./sections/Hero";
 import LogoShowcase from "./sections/LogoShowcase";
-import ShowCase from "./sections/ShowCase";
-import ShowCase2 from "./sections/ShowCase2";
-import ShowCase3 from "./sections/ShowCase3";
+import ProfessionalShowCase from "./sections/ProfessionalShowCase";
+import PracticeShowCase from "./sections/PracticeShowCase";
+import LearningShowCase from "./sections/LearningShowCase";
 import TechStack from "./sections/TechStack";
 
 const App = () => {
@@ -13,9 +13,9 @@ const App = () => {
     <>
       <NavBar />
       <Hero />
-      <ShowCase />
-      <ShowCase2 />
-      <ShowCase3 />
+      <ProfessionalShowCase />
+      <PracticeShowCase />
+      <LearningShowCase />
       <LogoShowcase />
       <FeatureCards />
       <Experience />

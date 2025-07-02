@@ -6,7 +6,7 @@ import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Showcase2 = () => {
+const LearningShowcase = () => {
   const sectionRef = useRef(null);
   const shopperRef = useRef(null);
   const outworkxRef = useRef(null);
@@ -57,55 +57,52 @@ const Showcase2 = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <TitleHeader
-          title="Practice Projects"
-          sub="🧬My Experiments & Growth"
-        />
+        <TitleHeader title="Learning Projects" sub="🧑‍💻Built While Learning" />
         <div className="showcaselayout mt-10">
           <div ref={shopperRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project-1.png" alt="Fullstack E-commerce App" />
-            </div>
+            <a
+              href="https://raimaaftab95.github.io/webpagelayout/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="image-wrapper block"
+            >
+              <img src="/images/project-7.png" alt="Back to Yourself" />
+            </a>
             <div className="text-content">
-              <h2>
-                Feature-Rich E-commerce App with Admin Dashboard & Real-Time
-                Cart Management (MERN Stack)
-              </h2>
+              <h2>Back to Yourself</h2>
               <p className="text-white-50 md:text-xl">
-                A MERN stack e-commerce web app with a responsive React
-                frontend, product listings, cart, and backend-ready
-                architecture.
+                A Fully Responsive and Professional Landing Page
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={outworkxRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img src="/images/project-5.png" alt="BOSHOP Ecommerce" />
-              </div>
+              {/* <div className="image-wrapper bg-[#FFEFDB]"> */}
+              <a
+                href="https://site-of-vanlife.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-wrapper block"
+              >
+                <img src="/images/project-8.png" alt="VanLife" />
+              </a>
               <h2>
-                BOSHOP A React-based ecommerce web app built with
-                React-Bootstrap, Bootstrap, and Redux Toolkit.
+                Van-life — A React Router 6 project featuring dynamic van type
+                filtering.
               </h2>
-              {/* <p>
-                Features include product listing, user authentication
-                (login/logout), and a fully functional shopping cart with
-                add-to-cart capability for seamless user shopping experience.
-              </p> */}
             </div>
 
             <div className="project" ref={growXRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img
-                  src="/images/project-6.png"
-                  alt="Web3-Enabled NFT Platform"
-                />
-              </div>
-              <h2>
-                Finate Website Responsive 5-page site with Bootstrap and CSS
-                animations.
-              </h2>
+              <a
+                href="https://drive.google.com/file/d/1EKJ1TFfBHeuSpvaTvr29bYpP7jZ0ZTnf/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image-wrapper block"
+              >
+                <img src="/images/project-9.png" alt="Admin Dashboard" />
+              </a>
+              <h2>Responsive Admin Dashboard built with React and Bootstrap</h2>
             </div>
           </div>
         </div>
@@ -114,4 +111,4 @@ const Showcase2 = () => {
   );
 };
 
-export default Showcase2;
+export default LearningShowcase;
