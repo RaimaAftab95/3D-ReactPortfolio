@@ -6,7 +6,7 @@ import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Showcase = () => {
+const Showcase2 = () => {
   const sectionRef = useRef(null);
   const shopperRef = useRef(null);
   const outworkxRef = useRef(null);
@@ -57,64 +57,54 @@ const Showcase = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <TitleHeader title="Professional Projects" sub="🧑‍💼 Real-World Work" />
+        <TitleHeader
+          title="Practice Projects"
+          sub="🧬My Experiments & Growth"
+        />
         <div className="showcaselayout mt-10">
           <div ref={shopperRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project-4.png" alt="Zenkly App" />
+              <img src="/images/project-1.png" alt="Fullstack E-commerce App" />
             </div>
             <div className="text-content">
               <h2>
-                Zenkly– AI-Powered Idea Generation & Project Management Tool
+                Feature-Rich E-commerce App with Admin Dashboard & Real-Time
+                Cart Management (MERN Stack)
               </h2>
               <p className="text-white-50 md:text-xl">
-                A modern, responsive React application built with Vite and
-                Tailwind CSS, Zenkly Live empowers users to generate, manage,
-                and save project or blog ideas. It features custom
-                authentication, guided idea generation flows, and a clean,
-                modular code structure. Deployed on Vercel for seamless
-                performance.
+                A MERN stack e-commerce web app with a responsive React
+                frontend, product listings, cart, and backend-ready
+                architecture.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={outworkxRef}>
-              {/* <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/project-2.png"
-                  alt="Coworking Space Platform"
-                />
-              </div> */}
-
-              <a
-                href="https://outworkx.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="image-wrapper bg-[#FFEFDB] block"
-              >
-                <img
-                  src="/images/project-2.png"
-                  alt="Coworking Space Platform"
-                />
-              </a>
-
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img src="/images/project-5.png" alt="BOSHOP Ecommerce" />
+              </div>
               <h2>
-                Airbnb-Inspired Coworking Space Platform with Booking &
-                Authentication Features
+                BOSHOP A React-based ecommerce web app built with
+                React-Bootstrap, Bootstrap, and Redux Toolkit.
               </h2>
+              {/* <p>
+                Features include product listing, user authentication
+                (login/logout), and a fully functional shopping cart with
+                add-to-cart capability for seamless user shopping experience.
+              </p> */}
             </div>
 
             <div className="project" ref={growXRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img
-                  src="/images/project-3.png"
+                  src="/images/project-6.png"
                   alt="Web3-Enabled NFT Platform"
                 />
               </div>
               <h2>
-                Web3-Enabled NFT Platform with Wallet Integration & Secure
-                Authentication (MERN + Docker)
+                Finate Website Responsive 5-page site with Bootstrap and CSS
+                animations.
               </h2>
             </div>
           </div>
@@ -124,4 +114,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default Showcase2;
