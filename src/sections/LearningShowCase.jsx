@@ -78,7 +78,6 @@ const LearningShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={outworkxRef}>
-              {/* <div className="image-wrapper bg-[#FFEFDB]"> */}
               <a
                 href="https://site-of-vanlife.netlify.app/"
                 target="_blank"
@@ -98,7 +97,7 @@ const LearningShowcase = () => {
                 href="https://drive.google.com/file/d/1EKJ1TFfBHeuSpvaTvr29bYpP7jZ0ZTnf/view"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="image-wrapper block"
+                className="image-wrapper bg-[#FFEFDB] block"
               >
                 <img src="/images/project-9.png" alt="Admin Dashboard" />
               </a>

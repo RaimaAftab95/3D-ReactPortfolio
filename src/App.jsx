@@ -7,6 +7,7 @@ import ProfessionalShowCase from "./sections/ProfessionalShowCase";
 import PracticeShowCase from "./sections/PracticeShowCase";
 import LearningShowCase from "./sections/LearningShowCase";
 import TechStack from "./sections/TechStack";
+import Testimonials from "./sections/Testimonials";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <FeatureCards />
       <Experience />
       <TechStack />
+      <Testimonials />
     </>
   );
 };
