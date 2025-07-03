@@ -23,7 +23,7 @@ section {
   --font-sans: "Mona Sans", sans-serif;
   --color-white-50: #d9ecff;
   --color-black-50: #1c1c21;
-  --color-black-100: #0e0e10;
+  --color-black-100: #1f2937;
   --color-black-200: #282732;
   --color-blue-50: #839cb5;
   --color-blue-100: #2d2d38;
@@ -439,7 +439,7 @@ section {
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 12px;
-  border: 2px solid transparent;
+  border: 3px solid rgb(243, 222, 106);
   background: var(--gradient);
   background-attachment: fixed;
   mask: linear-gradient(#0000, #0000),
