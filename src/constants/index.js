@@ -279,18 +279,22 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
+    url: "",
     imgPath: "/images/insta.png",
   },
   {
     name: "fb",
+    url: "https://www.facebook.com/profile.php?id=100084347790079",
     imgPath: "/images/fb.png",
   },
   {
     name: "x",
+    url: "",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
+    url: "https://www.linkedin.com/in/raimaaftab/",
     imgPath: "/images/linkedin.png",
   },
 ];

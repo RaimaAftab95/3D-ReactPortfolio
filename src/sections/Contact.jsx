@@ -20,13 +20,17 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    //Handle form submission logic here
+    console.log("Form submitted:", form);
+    //Reset form after submission
+    setForm({ name: "", email: "", message: "" });
     setLoading(true); // Show loading state
 
     try {
       await emailjs.sendForm(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        formRef.current,
+        formRef.current, //passing all current form info
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );
 
@@ -93,7 +97,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <button type="submit">
+                <button type="submit" disabled={loading}>
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">

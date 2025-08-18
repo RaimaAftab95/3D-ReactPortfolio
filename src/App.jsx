@@ -9,6 +9,7 @@ import LearningShowCase from "./sections/LearningShowCase";
 import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <TechStack />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 };
