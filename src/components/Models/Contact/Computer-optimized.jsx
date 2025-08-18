@@ -15,14 +15,14 @@ export function Computeroptimized(props) {
     <group {...props} dispose={null}>
       <group position={[-4.005, 67.549, 58.539]}>
         <mesh
-          castShadows
-          receiveShadows
+          castShadow
+          receiveShadow
           geometry={nodes.Cube000_ComputerDesk_0001_1.geometry}
           material={materials["ComputerDesk.001"]}
         />
         <mesh
-          castShadows
-          receiveShadows
+          castShadow
+          receiveShadow
           geometry={nodes.Cube000_ComputerDesk_0001_2.geometry}
           material={materials["FloppyDisk.001"]}
         />

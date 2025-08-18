@@ -20,8 +20,18 @@ const ContactExperience = () => {
       <OrbitControls
         enableZoom={false}
         minPolarAngle={Math.PI / 5}
+        //limit how far user can rotate down
+
         maxPolarAngle={Math.PI / 2}
+        //limit how far user can rotate up
       />
+
+      {/* <group scale={0.03} position={[0, -1.49, -2]} castShadow>
+        <Computer />
+      </group> */}
+      <group scale={0.03} position={[0, -1.5, -2]} castShadow>
+        <Computeroptimized />
+      </group>
 
       <group scale={[1, 1, 1]}>
         <mesh
@@ -32,13 +42,6 @@ const ContactExperience = () => {
           <planeGeometry args={[30, 30]} />
           <meshStandardMaterial color="#a46b2d" />
         </mesh>
-      </group>
-
-      {/* <group scale={0.03} position={[0, -1.49, -2]} castShadow>
-        <Computer />
-      </group> */}
-      <group scale={0.03} position={[0, -1.5, -2]} castShadow>
-        <Computeroptimized />
       </group>
     </Canvas>
   );
