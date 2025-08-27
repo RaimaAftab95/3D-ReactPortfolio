@@ -6,17 +6,19 @@ const TechIcon = ({ model }) => {
   const scene = useGLTF(model.modelPath);
 
   return (
-    <Canvas>
-      <ambientLight intensity={0.3} />
-      <directionalLight position={[5, 5, 5]} intensity={1} />
-      <Environment preset="city" />
-      <OrbitControls enableZoom={false} enableRotate={true} />
-      <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-        <group scale={model.scale} rotation={model.rotation}>
-          <primitive object={scene.scene} />
-        </group>
-      </Float>
-    </Canvas>
+    <div className="w-full h-full">
+      <Canvas style={{ width: "100%", height: "100%" }}>
+        <ambientLight intensity={0.3} />
+        <directionalLight position={[5, 5, 5]} intensity={1} />
+        <Environment preset="city" />
+        <OrbitControls enableZoom={false} enableRotate={true} />
+        <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
+          <group scale={model.scale} rotation={model.rotation}>
+            <primitive object={scene.scene} />
+          </group>
+        </Float>
+      </Canvas>
+    </div>
   );
 };
 
