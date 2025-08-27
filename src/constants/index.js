@@ -289,7 +289,7 @@ const socialImgs = [
   },
   {
     name: "x",
-    url: "",
+    url: "https://raimaaftab95.github.io/MyPortfolio-website/",
     imgPath: "/images/x.png",
   },
   {
